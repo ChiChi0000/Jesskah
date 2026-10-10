@@ -8,8 +8,8 @@
   "rdp_user": "xyadmin",
   "rdp_listen": ":::3389 (svchost) | 0.0.0.0:3389 (svchost) + handshake ok via 127.0.0.1",
   "rdp_denyts": true,
-  "started_at": "2026-10-10T21:08:41Z",
-  "expires_at": "2026-10-11T03:03:41Z",
+  "started_at": "2026-10-10T21:15:36Z",
+  "expires_at": "2026-10-11T03:10:36Z",
   "duration_menit": 355,
   "run_id": "38083821871",
   "run_number": "1",
@@ -41,16 +41,16 @@
     "note": "Host siap dipakai klien XyDesk Remote mode Koneksi RDP (Host+Port tunnel). Kunci WinStations\\RDP-Tcp sengaja TIDAK ditulis supaya listener 3389 tidak mati di runner GitHub."
   },
   "grafis": {
-    "note": "GPU software (CPU): OpenGL 4.6 (llvmpipe) + Vulkan lavapipe + WARP bawaan. Runner GitHub tanpa GPU fisik; 3D berat tetap lambat.",
-    "loader": "vulkan-1.dll 1.4.363.0 (LunarG)",
-    "debug": "",
-    "adapters": "Microsoft Hyper-V Video",
-    "install": "mesa 26.2.4.0 [Mesa/X.org]",
     "mesa": "26.2.4",
-    "files": "opengl32.dll,libgallium_wgl.dll,vulkan_lvp.dll,vulkan-1.dll",
-    "opengl": "4.6 (Core Profile) Mesa 26.2.4 (git-9a0169f2a7) | llvmpipe (LLVM 23.1.2, 256 bits) | Mesa",
+    "install": "mesa 26.2.4.0 [Mesa/X.org]",
+    "note": "GPU software (CPU): OpenGL 4.6 (llvmpipe) + Vulkan lavapipe + WARP bawaan. Runner GitHub tanpa GPU fisik; 3D berat tetap lambat.",
     "vulkan": "llvmpipe (LLVM 23.1.2, 256 bits) (PHYSICAL_DEVICE_TYPE_CPU)",
+    "files": "opengl32.dll,libgallium_wgl.dll,vulkan_lvp.dll,vulkan-1.dll",
     "dir": "C:\\XyRDP\\grafis",
+    "adapters": "Microsoft Hyper-V Video",
+    "opengl": "4.6 (Core Profile) Mesa 26.2.4 (git-9a0169f2a7) | llvmpipe (LLVM 23.1.2, 256 bits) | Mesa",
+    "debug": "",
+    "loader": "vulkan-1.dll 1.4.363.0 (LunarG)",
     "mode": "software"
   },
   "extras": {
@@ -64,8 +64,8 @@
   },
   "akses": {
     "tailscale": {
-      "note": "Installer Tailscale gagal, exit 1603",
       "status": "failed",
+      "note": "Installer Tailscale gagal, exit 1603",
       "ip": "",
       "magicdns": "",
       "hostname": "",
@@ -73,5 +73,5 @@
     },
     "mode": "tailscale"
   },
-  "stopped_at": "2026-10-10T21:09:34Z"
+  "stopped_at": "2026-10-10T21:16:22Z"
 }
