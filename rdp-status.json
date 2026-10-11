@@ -1,6 +1,6 @@
 {
   "active": false,
-  "hostname": "rdpfree-4",
+  "hostname": "rdpfree-5",
   "os": "Microsoft Windows Server 2022 Datacenter",
   "os_build": "10.0.20348",
   "os_style": "Windows 10 look",
@@ -8,12 +8,12 @@
   "rdp_user": "xyadmin",
   "rdp_listen": ":::3389 (svchost) | 0.0.0.0:3389 (svchost) + handshake ok via 127.0.0.1",
   "rdp_denyts": true,
-  "started_at": "2026-10-11T12:26:40Z",
-  "expires_at": "2026-10-11T18:21:40Z",
+  "started_at": "2026-10-11T20:16:21Z",
+  "expires_at": "2026-10-12T02:11:21Z",
   "duration_menit": 355,
-  "run_id": "38134361780",
-  "run_number": "4",
-  "run_url": "https://github.com/ChiChi0000/Jesskah/actions/runs/38134361780",
+  "run_id": "38171192577",
+  "run_number": "5",
+  "run_url": "https://github.com/ChiChi0000/Jesskah/actions/runs/38171192577",
   "mode": "bersih+win10",
   "win10": {
     "look": "ok",
@@ -40,16 +40,29 @@
     "akses": "(menyusul)",
     "note": "Host siap dipakai klien XyDesk Remote mode Koneksi RDP (Host+Port tunnel). Kunci WinStations\\RDP-Tcp sengaja TIDAK ditulis supaya listener 3389 tidak mati di runner GitHub."
   },
+  "grafis": {
+    "dir": "C:\\XyRDP\\grafis",
+    "mesa": "26.2.4",
+    "debug": "",
+    "loader": "vulkan-1.dll 1.4.363.0 (LunarG)",
+    "install": "mesa 26.2.4.0 [Mesa/X.org]",
+    "adapters": "Microsoft Hyper-V Video",
+    "note": "GPU software (CPU): OpenGL 4.6 (llvmpipe) + Vulkan lavapipe + WARP bawaan. Runner GitHub tanpa GPU fisik; 3D berat tetap lambat.",
+    "mode": "software",
+    "vulkan": "llvmpipe (LLVM 23.1.2, 256 bits) (PHYSICAL_DEVICE_TYPE_CPU)",
+    "files": "opengl32.dll,libgallium_wgl.dll,vulkan_lvp.dll,vulkan-1.dll",
+    "opengl": "4.6 (Core Profile) Mesa 26.2.4 (git-9a0169f2a7) | llvmpipe (LLVM 23.1.2, 256 bits) | Mesa"
+  },
   "akses": {
+    "mode": "tailscale",
     "tailscale": {
-      "note": "Installer Tailscale gagal, exit 1603",
       "status": "failed",
+      "note": "Installer Tailscale gagal, exit 1603",
       "ip": "",
       "magicdns": "",
       "hostname": "",
       "funnel_addr": ""
-    },
-    "mode": "tailscale"
+    }
   },
-  "stopped_at": "2026-10-11T12:27:01Z"
+  "stopped_at": "2026-10-11T20:16:54Z"
 }
