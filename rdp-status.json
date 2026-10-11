@@ -1,6 +1,6 @@
 {
   "active": false,
-  "hostname": "rdpfree-2",
+  "hostname": "rdpfree-3",
   "os": "Microsoft Windows Server 2022 Datacenter",
   "os_build": "10.0.20348",
   "os_style": "Windows 10 look",
@@ -8,12 +8,12 @@
   "rdp_user": "xyadmin",
   "rdp_listen": ":::3389 (svchost) | 0.0.0.0:3389 (svchost) + handshake ok via 127.0.0.1",
   "rdp_denyts": true,
-  "started_at": "2026-10-11T02:56:15Z",
-  "expires_at": "2026-10-11T08:51:15Z",
+  "started_at": "2026-10-11T11:04:05Z",
+  "expires_at": "2026-10-11T16:59:05Z",
   "duration_menit": 355,
-  "run_id": "38106486647",
-  "run_number": "2",
-  "run_url": "https://github.com/ChiChi0000/Jesskah/actions/runs/38106486647",
+  "run_id": "38133908358",
+  "run_number": "3",
+  "run_url": "https://github.com/ChiChi0000/Jesskah/actions/runs/38133908358",
   "mode": "bersih+win10",
   "win10": {
     "look": "ok",
@@ -42,27 +42,27 @@
   },
   "grafis": {
     "note": "GPU software (CPU): OpenGL 4.6 (llvmpipe) + Vulkan lavapipe + WARP bawaan. Runner GitHub tanpa GPU fisik; 3D berat tetap lambat.",
-    "dir": "C:\\XyRDP\\grafis",
-    "loader": "vulkan-1.dll 1.4.363.0 (LunarG)",
-    "debug": "",
     "mesa": "26.2.4",
-    "mode": "software",
-    "opengl": "4.6 (Core Profile) Mesa 26.2.4 (git-9a0169f2a7) | llvmpipe (LLVM 23.1.2, 256 bits) | Mesa",
-    "install": "mesa 26.2.4.0 [Mesa/X.org]",
     "files": "opengl32.dll,libgallium_wgl.dll,vulkan_lvp.dll,vulkan-1.dll",
+    "mode": "software",
+    "debug": "",
+    "vulkan": "llvmpipe (LLVM 23.1.2, 256 bits) (PHYSICAL_DEVICE_TYPE_CPU)",
     "adapters": "Microsoft Hyper-V Video",
-    "vulkan": "llvmpipe (LLVM 23.1.2, 256 bits) (PHYSICAL_DEVICE_TYPE_CPU)"
+    "loader": "vulkan-1.dll 1.4.363.0 (LunarG)",
+    "dir": "C:\\XyRDP\\grafis",
+    "install": "mesa 26.2.4.0 [Mesa/X.org]",
+    "opengl": "4.6 (Core Profile) Mesa 26.2.4 (git-9a0169f2a7) | llvmpipe (LLVM 23.1.2, 256 bits) | Mesa"
   },
   "akses": {
-    "mode": "tailscale",
     "tailscale": {
-      "status": "failed",
       "note": "Installer Tailscale gagal, exit 1603",
+      "status": "failed",
       "ip": "",
       "magicdns": "",
       "hostname": "",
       "funnel_addr": ""
-    }
+    },
+    "mode": "tailscale"
   },
-  "stopped_at": "2026-10-11T02:56:53Z"
+  "stopped_at": "2026-10-11T11:04:38Z"
 }
