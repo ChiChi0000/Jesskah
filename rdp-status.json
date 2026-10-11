@@ -8,8 +8,8 @@
   "rdp_user": "xyadmin",
   "rdp_listen": ":::3389 (svchost) | 0.0.0.0:3389 (svchost) + handshake ok via 127.0.0.1",
   "rdp_denyts": true,
-  "started_at": "2026-10-10T21:15:36Z",
-  "expires_at": "2026-10-11T03:10:36Z",
+  "started_at": "2026-10-11T00:28:05Z",
+  "expires_at": "2026-10-11T06:23:05Z",
   "duration_menit": 355,
   "run_id": "38083821871",
   "run_number": "1",
@@ -41,17 +41,17 @@
     "note": "Host siap dipakai klien XyDesk Remote mode Koneksi RDP (Host+Port tunnel). Kunci WinStations\\RDP-Tcp sengaja TIDAK ditulis supaya listener 3389 tidak mati di runner GitHub."
   },
   "grafis": {
-    "mesa": "26.2.4",
-    "install": "mesa 26.2.4.0 [Mesa/X.org]",
+    "opengl": "4.6 (Core Profile) Mesa 26.2.4 (git-9a0169f2a7) | llvmpipe (LLVM 23.1.2, 256 bits) | Mesa",
     "note": "GPU software (CPU): OpenGL 4.6 (llvmpipe) + Vulkan lavapipe + WARP bawaan. Runner GitHub tanpa GPU fisik; 3D berat tetap lambat.",
+    "mode": "software",
+    "debug": "",
     "vulkan": "llvmpipe (LLVM 23.1.2, 256 bits) (PHYSICAL_DEVICE_TYPE_CPU)",
+    "adapters": "Microsoft Hyper-V Video",
+    "install": "mesa 26.2.4.0 [Mesa/X.org]",
     "files": "opengl32.dll,libgallium_wgl.dll,vulkan_lvp.dll,vulkan-1.dll",
     "dir": "C:\\XyRDP\\grafis",
-    "adapters": "Microsoft Hyper-V Video",
-    "opengl": "4.6 (Core Profile) Mesa 26.2.4 (git-9a0169f2a7) | llvmpipe (LLVM 23.1.2, 256 bits) | Mesa",
-    "debug": "",
     "loader": "vulkan-1.dll 1.4.363.0 (LunarG)",
-    "mode": "software"
+    "mesa": "26.2.4"
   },
   "extras": {
     "lightshot": "skip",
@@ -64,8 +64,8 @@
   },
   "akses": {
     "tailscale": {
-      "status": "failed",
       "note": "Installer Tailscale gagal, exit 1603",
+      "status": "failed",
       "ip": "",
       "magicdns": "",
       "hostname": "",
@@ -73,5 +73,5 @@
     },
     "mode": "tailscale"
   },
-  "stopped_at": "2026-10-10T21:16:22Z"
+  "stopped_at": "2026-10-11T00:28:50Z"
 }
